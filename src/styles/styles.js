@@ -67,9 +67,10 @@ export default StyleSheet.create({
     color: '#fff',
     padding: 10,
     borderRadius: 5,
-    height: 630,
+    minHeight: 400, // Para manter o espaço inicial adequado
     textAlignVertical: 'top',
     fontSize: 16,
+    
   },
   headerRight: {
     flexDirection: 'row',
