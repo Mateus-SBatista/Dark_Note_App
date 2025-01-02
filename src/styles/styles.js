@@ -1,7 +1,6 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-  // Todos os estilos do código original
   container: {
     flex: 1,
     backgroundColor: '#121212',
@@ -67,7 +66,7 @@ export default StyleSheet.create({
     color: '#fff',
     padding: 10,
     borderRadius: 5,
-    minHeight: 400, // Para manter o espaço inicial adequado
+    minHeight: 400,
     textAlignVertical: 'top',
     fontSize: 16,
     
@@ -89,18 +88,17 @@ export default StyleSheet.create({
   },
   
   noteDateContainer: {
-    flexDirection: 'column', // Alinha a data e a hora verticalmente
-    alignItems: 'flex-end', // Alinha ao lado esquerdo
+    flexDirection: 'column',
+    alignItems: 'flex-end',
   },
   
   noteDate: {
     fontSize: 12,
     color: '#aaa',
   },
-  
+
   noteTime: {
     fontSize: 10,
     color: '#ccc',
   },  
-  
 });
