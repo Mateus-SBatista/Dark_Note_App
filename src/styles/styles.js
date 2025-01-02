@@ -21,7 +21,7 @@ export default StyleSheet.create({
   skullIcon: {
     position: 'absolute',
     top: 10,
-    left: 10,
+    left: -3,
   },
   noteTitle: {
     fontSize: 18,
@@ -81,4 +81,26 @@ export default StyleSheet.create({
   saveIcon: {
     marginRight: 15,
   },
+  noteHeader: {
+    flexDirection: 'row',
+    justifyContent: "flex-end",
+    alignItems: 'center',
+    marginBottom: -15,
+  },
+  
+  noteDateContainer: {
+    flexDirection: 'column', // Alinha a data e a hora verticalmente
+    alignItems: 'flex-end', // Alinha ao lado esquerdo
+  },
+  
+  noteDate: {
+    fontSize: 12,
+    color: '#aaa',
+  },
+  
+  noteTime: {
+    fontSize: 10,
+    color: '#ccc',
+  },  
+  
 });
